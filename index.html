@@ -462,7 +462,7 @@
      <div class="relative inline-block">
 <button id="magnifyGlass"><i class="fa-solid fa-magnifying-glass ml-36 text-white z-10 mr-5"></i></button>
     <div id="input" class="z-10 hidden absolute left-0 h-100 pl-54 pt-10 bg-neutral-950 text-white w-150 top-0 -ml-60 font-semibold">
-          <button id="closeBox" class="absolute transition-all ease-in-out scale-95 duration-300 top-0 left-130"><i class="fa-solid fa-xmark text-white"></i></button>
+          <button id="closeBox" class="absolute transition-all ease-in-out scale-95 duration-300 top-0 left-130"><i class="fa-solid fa-xmark text-white -ml-10"></i></button>
     <input type="text" class="border-none focus:outline-none text-2xl w-100" placeholder="Search apple.com"><i class="pr-5 text-white absolute left-46 top-12 fa-solid fa-magnifying-glass"></i>
 
     <!--Links-->
@@ -497,17 +497,17 @@
        <div class="relative inline-block">
     <button id="mobileBtn"><i class="fa-solid fa-bars text-white"></i></button>
     <div id="mobileMenu" class="hidden fixed left-0 bg-neutral-950 text-white h-screen pb-10 top-0 w-full  z-[9999] overflow-y-scroll">
-        <button id="closeMenu" class="absolute p-1 transition-all ease-in-out scale-95 duration-300 top-0 left-80"><i class="fa-solid fa-xmark text-white"></i></button>  
+        <button id="closeMenu" class="absolute p-1 transition-all ease-in-out scale-95 duration-300 top-0 right-0"><i class="fa-solid fa-xmark text-white"></i></button>  
    <!---->
-   <div class="flex flex-col gap-6 mt-10 pl-7">
+   <div class="flex flex-col gap-6 mt-10">
      <!--Store-->
      <div class="relative inline-block group">
     <button id="storeBtn" ><a href="#" class="text-3xl">Store</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-60"><i class="fa-solid fa-chevron-right text-white"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right text-white"></i></span>
      </button>
     <div id="storeMenu" class="hidden absolute -top-10 w-full py-4 h-250 z-10  left-0 bg-neutral-950 text-white">
-      <button id="chevronRight" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeStore" class="inline ml-70"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronRight" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeStore" class="inline right-0 absolute top-3"><i class="fa-solid fa-xmark"></i></button>
       <!--Shop Latest-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Shop the Latest</a></p>
@@ -543,11 +543,11 @@
      <!--Mac-->
      <div class="relative inline-block group">
     <button id="macBtn" ><a href="#" class="text-3xl">Mac</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-64"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="macMenu" class="hidden absolute -top-26 w-full py-4 h-250 z-20  left-0 bg-neutral-950 text-white">
-      <button id="chevronMac" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeMac" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronMac" class="inline "><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeMac" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore All Mac</a></p>
@@ -590,11 +590,11 @@
 <!--iPad-->
      <div class="relative inline-block group">
     <button id="ipadBtn" ><a href="#" class="text-3xl">iPad</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-64"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="ipadMenu" class="hidden absolute -top-42 w-full py-4 h-250 z-30  left-0 bg-neutral-950 text-white">
-      <button id="chevronIpad" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeIpad" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronIpad" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeIpad" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All iPad-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore All iPad</a></p>
@@ -634,11 +634,11 @@
      <!--iPhone-->
      <div class="relative inline-block group">
     <button id="iphoneBtn" ><a href="#" class="text-3xl">iPhone</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-56"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="iphoneMenu" class="hidden absolute -top-54 w-full py-4 h-250 z-40  left-0 bg-neutral-950 text-white">
-      <button id="chevronIphone" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeIphone" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronIphone" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeIphone" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All iPhone-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore All iPhone</a></p>
@@ -679,11 +679,11 @@
 <!--Watch-->
     <div class="relative inline-block group">
     <button id="watchBtn" ><a href="#" class="text-3xl">Watch</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-60"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="watchMenu" class="hidden absolute -top-70 w-full py-4 h-250 z-50  left-0 bg-neutral-950 text-white">
-      <button id="chevronWatch" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeWatch" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronWatch" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeWatch" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All Apple Watch-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore All Apple Watch</a></p>
@@ -721,11 +721,11 @@
      <!--Vision-->
      <div class="relative inline-block group">
     <button id="visionBtn" ><a href="#" class="text-3xl">Vision</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-60"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="visionMenu" class="hidden absolute -top-84 w-full py-4 h-250 z-60  left-0 bg-neutral-950 text-white">
-      <button id="chevronVision" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeVision" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronVision" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeVision" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All Vision-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore All Apple Vision Pro</a></p>
@@ -752,11 +752,11 @@
      <!--Airpods-->
      <div class="relative inline-block group">
     <button id="podBtn" ><a href="#" class="text-3xl">AirPods</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-56"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="podMenu" class="hidden absolute -top-100 w-full py-4 h-250 z-70  left-0 bg-neutral-950 text-white">
-      <button id="chevronPod" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closePod" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronPod" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closePod" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All AirPods-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore All AirPods</a></p>
@@ -786,11 +786,11 @@
      <!--TV & Home-->
      <div class="relative inline-block group">
     <button id="homeBtn" ><a href="#" class="text-3xl">TV & Home</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-40"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="homeMenu" class="hidden absolute -top-118 w-full py-4 h-220 z-80  left-0 bg-neutral-950 text-white">
-      <button id="chevronHome" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeHome" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronHome" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeHome" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore All TV & Home-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore TV & Home</a></p>
@@ -829,11 +829,11 @@
      <!--Entertainment-->
      <div class="relative inline-block group">
     <button id="enterBtn" ><a href="#" class="text-3xl">Entertainment</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-30"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="enterMenu" class="hidden absolute -top-130 w-full py-4 h-170 z-90  left-0 bg-neutral-950 text-white">
-      <button id="chevronEnter" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeEnter" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronEnter" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeEnter" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Explore Entertainment-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Explore Entertainment</a></p>
@@ -859,11 +859,11 @@
      <!--Accessories-->
      <div class="relative inline-block group">
     <button id="accessBtn" ><a href="#" class="text-3xl">Accessories</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-40"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="accessMenu" class="hidden absolute -top-144 w-full py-4 h-170 z-100  left-0 bg-neutral-950 text-white">
-      <button id="chevronAccess" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeAccess" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronAccess" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeAccess" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!--Shop All Accessories-->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">Shop All Accessories</a></p>
@@ -889,11 +889,11 @@
      <!--Support-->
      <div class="relative inline-block group">
     <button id="supportBtn" ><a href="#" class="text-3xl">Support</a>
-     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 ml-50"><i class="fa-solid fa-chevron-right"></i></span>
+     <span class="opacity-0 group-hover:opacity-100 transition-opacity duration-200 absolute right-0"><i class="fa-solid fa-chevron-right"></i></span>
      </button>
     <div id="supportMenu" class="hidden absolute -top-160 w-full py-4 h-250 z-110  left-0 bg-neutral-950 text-white">
-      <button id="chevronSupport" class="inline -ml-3"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
-      <button id="closeSupport" class="inline ml-78"><i class="fa-solid fa-xmark"></i></button>
+      <button id="chevronSupport" class="inline"><i class="fa-solid fa-chevron-left text-gray-50"></i></button>
+      <button id="closeSupport" class="inline absolute right-0"><i class="fa-solid fa-xmark"></i></button>
       <!---->
       <div class="ml-5">
       <p class="text-2xl font-bold mt-3"><a href="#">iPhone</a></p>
